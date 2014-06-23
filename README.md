@@ -9,7 +9,8 @@ Download:
 * cd .repo
 * mkdir local_manifests
 * cd local_manifests
-* wget URL here
+* wget https://raw.githubusercontent.com/UltimaAOSP/platform_manifest/kk-4.4/local.xml
+* cd ../../
 * repo sync
 
 
