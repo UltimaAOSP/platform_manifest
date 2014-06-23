@@ -80,6 +80,9 @@
   <!-- Samsung vendor propriatory files -->
   <remove-project path="vendor/samsung" name="AOSP-S4-KK/platform_vendor_samsung" />
   <project path="vendor/samsung" name="UltimaAOSP/platform_vendor_samsung" remote="github" revision="kk-4.4" />
+
+  <!-- Remove broodplank's Gapps installer app -->
+  <remove-project path="packages/apps/GappsInstaller" name="AOSP-S4-KK/platform_packages_apps_GappsInstaller" />
 </manifest>
 
 
