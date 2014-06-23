@@ -6,6 +6,10 @@ Download:
 * mkdir ~/UltimaAOSP
 * cd ~/UltimaAOSP
 * repo init -u git://github.com/UltimaAOSP/platform_manifest -b kk-4.4
+* cd .repo
+* mkdir local_manifests
+* cd local_manifests
+* wget URL here
 * repo sync
 
 
