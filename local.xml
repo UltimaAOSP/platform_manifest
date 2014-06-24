@@ -83,6 +83,10 @@
 
   <!-- Remove broodplank's Gapps installer app -->
   <remove-project path="packages/apps/GappsInstaller" name="AOSP-S4-KK/platform_packages_apps_GappsInstaller" />
+
+  <!-- lib_hardwarelegacy -->
+  <remove-project path="hardware/lib_hardwarelegacy" name"AOSP-S4-KK/platform_hardware_libhardware_legacy" />
+  <project path="hardware/lib_hardwarelegacy" name="UltimaAOSP/platform_hardware_libhardware_legacy" remote="github" revision="kk-4.4" />
 </manifest>
 
 
