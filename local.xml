@@ -75,8 +75,9 @@
   <project path="device/samsung/smdk4412-common" name="UltimaAOSP/android_device_samsung_smdk4412-common" remote="github" revision="kk-4.4" />
 
   <!--Archi Linaro -->
-  <project path="prebuilts/gcc/linux-x86/arm/ArchiLinaro-4.9" name="JustArchi/Linaro" remote="github" revision="4.9" />
-
+  <project name="JustArchi/Linaro" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="github" revision="4.9-eabi-stable" />
+  <project name="JustArchi/Linaro" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="github" revision="4.9-androideabi-stable" />
+  
   <!-- Samsung vendor propriatory files -->
   <remove-project path="vendor/samsung" name="AOSP-S4-KK/platform_vendor_samsung" />
   <project path="vendor/samsung" name="UltimaAOSP/platform_vendor_samsung" remote="github" revision="kk-4.4" />
