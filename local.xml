@@ -87,6 +87,16 @@
   <!-- lib_hardwarelegacy -->
   <remove-project path="hardware/libhardware_legacy" name="AOSP-S4-KK/platform_hardware_libhardware_legacy" />
   <project path="hardware/libhardware_legacy" name="UltimaAOSP/platform_hardware_libhardware_legacy" remote="github" revision="kk-4.4" />
+  <!-- qcom display-caf and display -->
+  
+  <remove-project path="hardware/qcom/display" name="AOSP-S4-KK/platform_hardware_qcom_display" />
+  <remove-project path="hardware/qcom/display-caf" name="AOSP-S4-KK/platform_hardware_qcom_display-caf" />
+ 
+
+  <project path="hardware/qcom/display" name="UltimaAOSP/platform_hardware_qcom_display" remote="github" revision="kk-4.4" />
+  
+  <project path="hardware/qcom/display-caf" name="UltimaAOSP/platform_hardware_qcom_display-caf" remote="github" revision="kk-4.4" />
+
 </manifest>
 
 
