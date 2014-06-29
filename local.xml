@@ -85,8 +85,8 @@
   <remove-project path="packages/apps/GappsInstaller" name="AOSP-S4-KK/platform_packages_apps_GappsInstaller" />
 
   <!-- lib_hardwarelegacy -->
-  <remove-project path="hardware/lib_hardwarelegacy" name="AOSP-S4-KK/platform_hardware_libhardware_legacy" />
-  <project path="hardware/lib_hardwarelegacy" name="UltimaAOSP/platform_hardware_libhardware_legacy" remote="github" revision="kk-4.4" />
+  <remove-project path="hardware/libhardware_legacy" name="AOSP-S4-KK/platform_hardware_libhardware_legacy" />
+  <project path="hardware/libhardware_legacy" name="UltimaAOSP/platform_hardware_libhardware_legacy" remote="github" revision="kk-4.4" />
 </manifest>
 
 
